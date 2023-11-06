@@ -9,23 +9,37 @@
   }
 
   .header {
-    display: -ms-flexbox; 
-    font-family: 'Georgia', Georgia, sans-serif;
-    padding: 300px;
-    text-align: center;
-    background: rgb(2, 2, 81);
-    color: white;
     background-image: url('images/quCampus.jpg');
     background-size: cover;
     background-position: center;
-    background-color: white; 
+    padding: 275px
   }
   
 
   .header h1 {
+    display: -ms-flexbox; 
+    font-family: 'Georgia', Georgia, sans-serif;
     font-size: 70px;
+    text-align: center;
+    padding: 0%;
+    color: #6EB8F9;
+    background-color: white; 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
+  }
+
+  .header h4
+  {
+    display: -ms-flexbox; 
+    font-family: 'Georgia', Georgia, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+    color: #6EB8F9;
+    background-color: white; 
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+    
   }
   
   .navbar {
